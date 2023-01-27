@@ -43,4 +43,7 @@
   background: transparent;
   border: 2px solid orange;
 }
+::-webkit-scrollbar{
+  display: none;
+}
  
