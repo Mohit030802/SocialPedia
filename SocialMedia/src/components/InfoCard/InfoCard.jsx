@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./InfoCard.css";
 import { UilPen } from "@iconscout/react-unicons";
-import ProfileModal from "../ProfileModal.jsx/ProfileModal";
+import ProfileModal from "../ProfileModal/ProfileModal";
 
 const InfoCard = () => {
   const [modalOpened, setModalOpened] = useState(false);
@@ -26,21 +26,21 @@ const InfoCard = () => {
         <span>
           <b>Status </b>
         </span>
-        <span>in Relationship</span>
+        <span>in Single</span>
       </div>
 
       <div className="info">
         <span>
           <b>Lives in </b>
         </span>
-        <span>Multan</span>
+        <span>Ambala</span>
       </div>
 
       <div className="info">
         <span>
           <b>Works at </b>
         </span>
-        <span>Zainkeepscode inst</span>
+        <span>VIT BHOPAL</span>
       </div>
 
       <button className="button logout-button">Logout</button>
