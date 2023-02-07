@@ -6,12 +6,11 @@ import './ProfileSide.css'
 const ProfileSide = () => {
   return (
     <div className="ProfileSide">
-      <LogoSearch/>
-      <ProfileCard/>
-      <FollowersCard/>
-
+        <LogoSearch/>
+        <ProfileCard location = 'homepage'/>
+        <FollowersCard/>
     </div>
-  )
+    )
 }
 
 export default ProfileSide
